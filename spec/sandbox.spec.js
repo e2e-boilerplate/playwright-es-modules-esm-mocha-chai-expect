@@ -1,5 +1,5 @@
 import { chromium } from "playwright";
-import { strictEqual } from "assert";
+import { expect } from "chai";
 
 let page;
 let browser;
@@ -30,7 +30,7 @@ describe("google search", () => {
     await page.waitFor("h1");
     const title = await page.$eval("h1", el => el.textContent);
 
-    strictEqual(await page.title(), "Sandbox");
-    strictEqual(title, "Sandbox");
+    expect(await page.title()).toEqual("Sandbox");
+    expect(title).toEqual("Sandbox");
   });
 });
