@@ -4,7 +4,7 @@ import { expect } from "chai";
 let page;
 let browser;
 
-describe("google search", () => {
+describe("Sandbox", () => {
   before(async () => {
     browser = process.env.GITHUB_ACTIONS
       ? await chromium.launch()
@@ -26,11 +26,11 @@ describe("google search", () => {
     }
   });
 
-  it("should be on google search page", async () => {
+  it("should be on sandbox", async () => {
     await page.waitFor("h1");
     const title = await page.$eval("h1", el => el.textContent);
 
-    expect(await page.title()).toEqual("Sandbox");
-    expect(title).toEqual("Sandbox");
+    expect(await page.title()).to.equal("Sandbox");
+    expect(title).to.equal("Sandbox");
   });
 });
