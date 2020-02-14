@@ -1,4 +1,4 @@
-name: playwright-es6-modules-esm-mocha-assert
+name: playwright-es6-modules-esm-mocha-expect
 
 on:
   push:
