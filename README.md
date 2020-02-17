@@ -2,7 +2,7 @@
 
 [![GitHub Actions status | e2e-boilerplates/playwright-es6-modules-esm-mocha-expect](https://github.com/e2e-boilerplates/playwright-es6-modules-esm-mocha-expect/workflows/playwright-es6-modules-esm-mocha-expect/badge.svg)](https://github.com/e2e-boilerplates/playwright-es6-modules-esm-mocha-expect/actions?workflow=playwright-es6-modules-esm-mocha-expect)
 
-Playwright end-to-end test automation boilerplate, using ES6 Modules, ESM, Mocha and Assert.
+Playwright end-to-end test automation boilerplate, using ES6 Modules, ESM, Mocha and Expect.
 
 ## Getting Started
 

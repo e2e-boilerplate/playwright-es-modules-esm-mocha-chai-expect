@@ -1,10 +1,10 @@
 {
-  "name": "playwright-es6-modules-esm-mocha-assert",
+  "name": "playwright-es6-modules-esm-mocha-expect",
   "version": "1.0.0",
-  "description": "Playwright end-to-end test automation boilerplate, using ES6 modules, ESM, mocha and chai.",
+  "description": "Playwright end-to-end test automation boilerplate, using ES6 modules, ESM, Mocha and Expect.",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx mocha -r esm spec/sandbox.spec.js"
+    "test": "npx mocha -r esm spec/*.spec.js"
   },
   "keywords": [
     "playwright",
@@ -13,7 +13,8 @@
     "mocha",
     "boilerplate",
     "example",
-    "e2e"
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
