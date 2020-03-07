@@ -21,17 +21,17 @@
     }
   },
   "keywords": [
-    "es modules",
+    "es",
     "esm",
     "expect",
     "mocha",
     "playwright"
   ],
   "license": "MIT",
-  "name": "playwright-es6-modules-esm-mocha-expect",
+  "name": "playwright-es-modules-esm-mocha-expect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplates/playwright-es6-modules-esm-mocha-expect.git"
+    "url": "git+https://github.com/e2e-boilerplates/playwright-es-modules-esm-mocha-expect.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
