@@ -1,6 +1,6 @@
 {
-  "author": "",
-  "description": "Playwright end-to-end test automation boilerplate, using ES6 modules, ESM, Mocha and Expect.",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "description": "playwright end-to-end test automation boilerplate.",
   "devDependencies": {
     "chai": "4.2.0",
     "eslint": "6.8.0",
@@ -21,9 +21,14 @@
     }
   },
   "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
     "es",
     "esm",
+    "example",
     "expect",
+    "integration test",
     "mocha",
     "playwright"
   ],
