@@ -1,12 +1,12 @@
-# Playwright (ES6 modules, ESM, Mocha, and Expect)
+[![GitHub Actions status | e2e-boilerplate/playwright-es-modules-esm-mocha-expect](https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-expect/workflows/playwright-es-modules-esm-mocha-expect/badge.svg)](https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-expect/actions?workflow=playwright-es-modules-esm-mocha-expect)
 
-[![GitHub Actions status | e2e-boilerplates/playwright-es6-modules-esm-mocha-expect](https://github.com/e2e-boilerplates/playwright-es6-modules-esm-mocha-expect/workflows/playwright-es6-modules-esm-mocha-expect/badge.svg)](https://github.com/e2e-boilerplates/playwright-es6-modules-esm-mocha-expect/actions?workflow=playwright-es6-modules-esm-mocha-expect)
+# Playwright Boilerplate
 
-Playwright end-to-end test automation boilerplate, using ES6 Modules, ESM, Mocha and Expect.
+Playwright end-to-end test automation boilerplate, using ES Modules, esm, Mocha and Expect.
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/playwright-es6-modules-esm-mocha-expect.git
-    cd playwright-es6-modules-esm-mocha-expect
-    npm inistall
-    npm run test
+git clone git@github.com:e2e-boilerplate/playwright-es-modules-esm-mocha-expect.git
+cd playwright-es-modules-esm-mocha-expect
+npm install
+npm run test
