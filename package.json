@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-expect/issues"
   },
@@ -25,8 +25,13 @@
     }
   },
   "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
     "esm",
+    "example",
     "expect",
+    "integration test",
     "mocha",
     "playwright"
   ],

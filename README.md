@@ -6,7 +6,7 @@ Playwright end-to-end test automation boilerplate, using ES Modules, esm, Mocha 
 
 ## Getting Started
 
-git clone git@github.com:e2e-boilerplate/playwright-es-modules-esm-mocha-expect.git
-cd playwright-es-modules-esm-mocha-expect
-npm install
-npm run test
+    	git clone git@github.com:e2e-boilerplate/playwright-es-modules-esm-mocha-expect.git
+    	cd playwright-es-modules-esm-mocha-expect
+    	npm install
+    	npm run test
