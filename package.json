@@ -45,5 +45,6 @@
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx mocha -r esm spec/*.spec.js"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {}
 }
