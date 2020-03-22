@@ -1,15 +1,16 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-expect/issues"
+    "url": "https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect/issues"
   },
   "dependencies": {
+    "chai": "4.2.0",
     "chromedriver": "80.0.1",
     "esm": "3.2.25",
-    "expect": "25.1.0",
+    "mocha": "7.1.1",
     "playwright": "0.11.1"
   },
-  "description": "Playwright end-to-end test automation boilerplate. using ES Modules, esm, Mocha and Expect.",
+  "description": "Playwright end-to-end test automation boilerplate. Using ES Modules, esm, Mocha, Chai and Expect.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
@@ -17,10 +18,10 @@
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
-    "prettier": "2.0.1",
+    "prettier": "1.19.1",
     "pretty-quick": "2.0.1"
   },
-  "homepage": "https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-expect#readme",
+  "homepage": "https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect#readme",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
@@ -28,6 +29,7 @@
   },
   "keywords": [
     "boilerplate",
+    "chai",
     "e2e",
     "e2e tests",
     "esm",
@@ -38,10 +40,10 @@
     "playwright"
   ],
   "license": "MIT",
-  "name": "playwright-es-modules-esm-mocha-expect",
+  "name": "playwright-es-modules-esm-mocha-chai-expect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-expect.git"
+    "url": "git+https://github.com/e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
