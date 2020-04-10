@@ -1,7 +1,9 @@
-| referrer                                                                           | count | uniques |
-| :--------------------------------------------------------------------------------- | :---- | :------ |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect                       | 3     | 1       |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect/actions               | 3     | 1       |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect/actions/runs/60874979 | 3     | 1       |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect/runs/525623760        | 3     | 1       |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect/runs/526217051        | 1     | 1       |
+| referrer                                                                      | count | uniques |
+| :---------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect                  | 3     | 2       |
+| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect/actions          | 2     | 1       |
+| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect/commits          | 1     | 1       |
+| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect/graphs/traffic   | 1     | 1       |
+| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect/pull/16          | 1     | 1       |
+| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect/pulse            | 1     | 1       |
+| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-expect/tree/master/spec | 1     | 1       |
